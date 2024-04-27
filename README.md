@@ -4,7 +4,18 @@
 
 # Installation Process #
 
-## OPTION 1 - Direct Script Execute
+## OPTION 1 - Setup and Calling the script from terminal ##
+
+1. Install the script - [One Time Thing]
+```/bin/bash <path to file location>/install.sh```
+
+
+2. Call the script 
+```pyusc '<name>' '<command>' '<key_combination>'```
+
+>Example ```pyusc 'open gedit' 'gedit' '<Alt>7'```
+
+## OPTION 2 - Direct Script Execute
 
 1. Copy the following code in a file and save it as ```<whatever_name>.py``` or directly download or clone the ```set_customshortcut.py```
 
@@ -70,4 +81,3 @@ Numpad number key(s):      KP_1
 Numpad `-`:                KP_Subtract
 ```
 
-## OPTION 2 - Setup and Calling the script from terminal (COMING SOON!) ##
